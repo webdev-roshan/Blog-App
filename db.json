@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "createdAt": "2024-03-15T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "createdAt": "2024-03-15T11:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Bob Wilson",
+      "email": "bob@example.com",
+      "password": "password789",
+      "createdAt": "2024-03-15T12:00:00.000Z"
+    },
+    {
+      "id": "39de",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "createdAt": "2025-07-19T17:59:34.877Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Getting Started with TanStack Query",
+      "content": "TanStack Query is an awesome library for handling server state in React applications. It simplifies data fetching, caching, and syncing with your UI.",
+      "imageUrl": "https://picsum.photos/800/400?random=1",
+      "createdAt": "2024-03-15T13:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Mastering Redux Toolkit in 2024",
+      "content": "Redux Toolkit provides a standardized and clean way to manage global state. Learn how to create slices, async thunks, and structure your store professionally.",
+      "imageUrl": "https://picsum.photos/800/400?random=2",
+      "createdAt": "2024-03-15T14:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Building CRUD Apps with Next.js",
+      "content": "Next.js introduces exciting new features that make building full-stack apps easier than ever. Learn to implement professional CRUD operations with modern tools.",
+      "imageUrl": "https://picsum.photos/800/400?random=3",
+      "createdAt": "2024-03-15T15:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "Understanding Server Actions in Next.js",
+      "content": "Server Actions bring a new level of backend-in-frontend experience in Next.js. Learn how they work and when to use them.",
+      "imageUrl": "https://picsum.photos/800/400?random=4",
+      "createdAt": "2024-03-15T16:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "title": "TypeScript Best Practices for React Developers",
+      "content": "TypeScript can drastically improve your code quality. Learn tips and patterns that make your React projects safer and more maintainable.",
+      "imageUrl": "https://picsum.photos/800/400?random=5",
+      "createdAt": "2024-03-15T17:00:00.000Z"
+    },
+    {
+      "id": "f250",
+      "title": "abacfdsak",
+      "content": "afdsssssssssssssssssssssssss",
+      "imageUrl": "https://picsum.photos/800/400?random=673",
+      "createdAt": "2025-07-19T17:59:46.738Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Great article! Really helped me understand TanStack Query better.",
+      "createdAt": "2024-03-15T13:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "content": "Would love to see more examples of complex queries!",
+      "createdAt": "2024-03-15T13:45:00.000Z"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 2,
+      "content": "Redux Toolkit has really simplified state management.",
+      "createdAt": "2024-03-15T14:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "postId": 3,
+      "userId": 1,
+      "content": "Next.js is amazing for full-stack development!",
+      "createdAt": "2024-03-15T15:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "postId": 4,
+      "userId": 3,
+      "content": "Server Actions are game-changing. Great explanation!",
+      "createdAt": "2024-03-15T16:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "postId": 5,
+      "userId": 1,
+      "content": "These TypeScript tips are really helpful for my team.",
+      "createdAt": "2024-03-15T17:30:00.000Z"
+    },
+    {
+      "id": "6aa9",
+      "content": "ada",
+      "postId": null,
+      "userId": "39de",
+      "createdAt": "2025-07-19T17:59:53.643Z"
+    },
+    {
+      "id": "0ff0",
+      "content": "fdsfasd",
+      "postId": null,
+      "userId": "39de",
+      "createdAt": "2025-07-19T18:00:08.139Z"
+    },
+    {
+      "id": "fc82",
+      "content": "fdsafds",
+      "postId": null,
+      "userId": "39de",
+      "createdAt": "2025-07-19T18:01:40.673Z"
+    },
+    {
+      "id": "3d1a",
+      "content": "aaa\n",
+      "postId": null,
+      "userId": "39de",
+      "createdAt": "2025-07-19T18:02:10.281Z"
+    },
+    {
+      "id": "de3c",
+      "content": "aaa",
+      "postId": "NaN",
+      "userId": "39de",
+      "createdAt": "2025-07-19T18:02:35.985Z"
+    }
+  ]
+}
