@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import { Post } from '@/lib/types';
 import { useAuth } from '@/hooks/auth/useAuth';
 
-const API_BASE_URL = 'http://localhost:3002';
+import { API_BASE_URL } from '@/lib/config';
 
 const fetchPosts = async (userId: string | number): Promise<Post[]> => {
   const response = await fetch(`${API_BASE_URL}/posts?userId=${userId}`);

@@ -2,7 +2,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { User, CreateUserData, LoginData } from '@/lib/types';
 import { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:3002';
+import { API_BASE_URL } from '@/lib/config';
 
 const loginUser = async (data: LoginData): Promise<User> => {
     const response = await fetch(`${API_BASE_URL}/users?email=${data.email}`);

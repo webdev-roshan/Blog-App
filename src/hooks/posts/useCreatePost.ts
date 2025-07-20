@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { Post, CreatePostData } from '@/lib/types';
 
-const API_BASE_URL = 'http://localhost:3002';
+import { API_BASE_URL } from '@/lib/config';
 
 const createPost = async (postData: CreatePostData): Promise<Post> => {
   const response = await fetch(`${API_BASE_URL}/posts`, {

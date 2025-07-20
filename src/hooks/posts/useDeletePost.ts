@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
-const API_BASE_URL = 'http://localhost:3002';
+import { API_BASE_URL } from '@/lib/config';
 
 const deletePost = async (id: string | number): Promise<void> => {
   const response = await fetch(`${API_BASE_URL}/posts/${id}`, {

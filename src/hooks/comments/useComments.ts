@@ -2,7 +2,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Comment } from '@/lib/types';
 import { useAuth } from '@/hooks/auth/useAuth';
 
-const API_BASE_URL = 'http://localhost:3002';
+import { API_BASE_URL } from '@/lib/config';
 
 const fetchComments = async (postId: number | string): Promise<Comment[]> => {
   const response = await fetch(`${API_BASE_URL}/comments?postId=${postId}&_sort=createdAt&_order=desc`);
